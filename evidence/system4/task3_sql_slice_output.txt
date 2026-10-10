@@ -1,0 +1,15 @@
+SQL-filtered Shift C slice:
+count=13
+('DEF-20260303-001', '2026-03-03T23:11:47Z', 'C', 'capacitor-bank-C-7', 'medium', 'Leakage current 3.8 mA vs spec less than 2.0 mA on unit serial 7741. Quarantined for rework.')
+('DEF-20260304-001', '2026-03-04T02:38:19Z', 'C', 'capacitor-bank-C-7', 'high', 'Dielectric absorption ratio fell to 0.42 after 1-min charge; expected greater than 0.6. Indicates moisture ingress in stack.')
+('DEF-20260307-001', '2026-03-07T04:17:22Z', 'C', 'capacitor-bank-C-7', 'high', 'Capacitance value 218 uF vs nominal 250 uF, drift exceeds 10 percent tolerance band. Unit pulled from line.')
+('DEF-20260310-001', '2026-03-10T03:42:17Z', 'C', 'capacitor-bank-C-7', 'critical', 'Arc-over event during 800V hipot test; bank tripped breaker on test cell 2. Unit isolated, root cause investigation opened.')
+('DEF-20260316-001', '2026-03-16T01:22:48Z', 'C', 'capacitor-bank-C-7', 'medium', 'ESR elevated to 18 milliohm on production lot 2026-0316-A, baseline is 12 milliohm. Three of twenty samples affected.')
+('DEF-20260319-001', '2026-03-19T22:14:02Z', 'C', 'capacitor-bank-C-7', 'high', 'Visible micro-fracture along dielectric edge of two units, visible under 10x magnification. Suspect handling damage upstream.')
+('DEF-20260324-001', '2026-03-24T05:33:18Z', 'C', 'vacuum-pump-VP-4', 'low', 'Audible click during reversal cycle on second-stage piston. No performance impact measured.')
+('DEF-20260402-001', '2026-04-02T23:27:36Z', 'C', 'capacitor-bank-C-7', 'medium', 'Self-discharge time constant of 8 minutes versus expected 15 minutes minimum. Two units from same lot affected.')
+('DEF-20260406-001', '2026-04-06T03:54:29Z', 'C', 'capacitor-bank-C-7', 'critical', 'Catastrophic case rupture during life test at 1.2x rated voltage; electrolyte vented. Test chamber sealed, FMEA review triggered.')
+('DEF-20260413-001', '2026-04-13T02:16:55Z', 'C', 'insulation-stack-IS-2', 'medium', 'Partial discharge measured 25 pC at 1.5x Un, limit 10 pC. Suggests internal void in pressboard layer.')
+('DEF-20260417-001', '2026-04-17T22:58:37Z', 'C', 'capacitor-bank-C-7', 'medium', 'Terminal torque check found two units at 6.2 Nm versus spec 8.0 Nm. Re-torqued and witnessed by QE.')
+('DEF-20260421-001', '2026-04-21T04:07:18Z', 'C', 'pressure-sensor-PS-22', 'low', 'Sensor failed self-test at startup, recovered after power cycle. Logged for trending.')
+('DEF-20260427-001', '2026-04-27T01:19:46Z', 'C', 'capacitor-bank-C-7', 'critical', 'Internal short circuit detected during final QA; impedance dropped to 0.08 ohm from expected 4.5 ohm. Unit segregated for destructive analysis.')
